@@ -1,0 +1,43 @@
+h1 {
+    color:rgb(0, 0, 255);    
+}
+h2{
+    color: rgb(253, 103, 4);
+}
+li {
+    color:rgb(8, 5, 0);
+    }
+.menu{
+    display: flex;
+    justify-content: space-between;    
+    padding: 15px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;   
+    margin: 15px;
+}
+
+.origami {
+    justify-content: center;
+    border-radius: 10px;
+    border: solid;
+    width:310px;   
+    padding: 30px;
+    margin: 25px; 
+}
+body{
+    background-color:rgb(48, 250, 48);
+    margin: 0px;
+
+}
+a:link{
+    color: crimson;
+    justify-content: right;
+}
+a:visited{
+    color:cyan;
+}
+.origami:hover{
+    transform:  scale(1.2);
+}
